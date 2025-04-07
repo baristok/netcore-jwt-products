@@ -114,6 +114,6 @@ dotnet run</code></pre>
     <h2>İletişim</h2>
     <p>Barış Tok - <a href="https://github.com/baristok">GitHub Profili</a></p>
     <p>Proje Linki: <a href="https://github.com/baristok/netcore-jwt-products">netcore-jwt-products</a></p>
-    <p>Not: Bu proje, Yavuz Selim Kahramanın Udemy kursunda yaptığı bir projedir. Üzerinde kendimce değişiklikler yapmıştır. Kendisine katkılarından dolayı teşekkürlerimi sunuyorum.</p>
+    <p>Not: Bu proje, Yavuz Selim Kahramanın Udemy kursunda yaptığı bir projedir. Üzerinde kendimce değişiklikler yapılmıştır. Kendisine katkılarından dolayı teşekkürlerimi sunuyorum.</p>
 </body>
 </html>
