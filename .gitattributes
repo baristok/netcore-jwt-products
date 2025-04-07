@@ -1,9 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# wwwroot içeriğini TAMAMEN dil analizinden çıkar
-wwwroot/** linguist-vendored
-wwwroot/** linguist-detectable=false
-wwwroot/** -text
-
-# Alternatif olarak binary olarak işaretle (daha güçlü)
-wwwroot/** binary
+wwwroot/* linguist-vendored
