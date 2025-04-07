@@ -105,7 +105,7 @@ dotnet run</code></pre>
         <li><strong>/api/products</strong>: Ürün işlemleri</li>
         <li><strong>/api/categories</strong>: Kategori işlemleri</li>
     </ul>
-    <img src="image.png" alt="API Endpoints">
+    <img src="https://github.com/baristok/netcore-jwt-products/blob/main/Udemy.jwtApp/JwtApp.Front/wwwroot/images/images.png" alt="API Endpoints">
     <h2>Bağlantılar</h2>
     <ul>
         <li>ASP.NET Core Dokümantasyonu: <a href="https://learn.microsoft.com/tr-tr/aspnet/core/">Microsoft Docs</a></li>
