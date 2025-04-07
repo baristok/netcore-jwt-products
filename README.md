@@ -115,7 +115,7 @@ dotnet run</code></pre>
     </ul>    
     <h2>İletişim</h2>
     <p>Barış Tok - <a href="https://github.com/baristok">GitHub Profili</a></p>
-    <p>Proje Linki: <a href="https://github.com/KULLANICI_ADINIZ/JWT-Auth-System">https://github.com/KULLANICI_ADINIZ/JWT-Auth-System</a></p>
+    <p>Proje Linki: <a href="https://github.com/baristok/netcore-jwt-products">https://github.com/KULLANICI_ADINIZ/JWT-Auth-System</a></p>
     <p>Not: Bu proje, Yavuz Selim Kahramanın Udemy kursunda yaptığı bir projedir. Üzerinde kendimce değişiklikler yapmıştır. Kendisine katkılarından dolayı teşekkürlerimi sunuyorum.</p>
 </body>
 </html>
