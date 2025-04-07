@@ -77,7 +77,7 @@
     <ol>
         <li>
             <p>Projeyi klonlayın:</p>
-            <pre><code>git clone https://github.com/[kullanıcı-adınız]/JWT-Tabanli-Urun-Yonetim-Sistemi.git</code></pre>
+            <pre><code>git clone https://github.com/baristok/netcore-jwt-products</code></pre>
         </li>
         <li>
             <p>Gerekli yapılandırmaları düzenleyin:</p>
