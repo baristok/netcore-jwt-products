@@ -1,0 +1,78 @@
+﻿@using System.Text.Json
+@model JwtApp.Front.Models.CreateProductModel
+
+@{
+    ViewBag.Title = "Ürün Ekle";
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <div class="card shadow-4">
+            <div class="card-header bg-primary">
+                <h5 class="card-title text-white mb-0">
+                    <i class="fas fa-plus-circle me-2"></i>Yeni Ürün Ekle
+                </h5>
+            </div>
+            <div class="card-body p-4">
+                <form asp-action="Create" asp-controller="Product" method="post">,
+                    
+                    @{
+                        TempData["Categories"] = JsonSerializer.Serialize(Model.Categories);
+                    }
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input asp-for="Name" type="text" id="productName" class="form-control" />
+                        <label class="form-label" for="productName">Ürün Adı</label>
+                        <div class="form-helper">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input asp-for="Stock" type="number" id="productStock" class="form-control" />
+                        <label class="form-label" for="productStock">Stok</label>
+                        <div class="form-helper">
+                            <span asp-validation-for="Stock" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input asp-for="Price" type="text" id="productPrice" class="form-control" />
+                        <label class="form-label" for="productPrice">Fiyat</label>
+                        <div class="form-helper">
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <select asp-for="CategoryId" asp-items="Model.Categories" class="form-select">
+                            <option value="">Kategori Seçiniz</option>
+                        </select>
+                        <div class="form-helper">
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-end mt-4">
+                        <a asp-action="List" asp-controller="Product" class="btn btn-outline-primary btn-rounded me-2">
+                            <i class="fas fa-arrow-left me-2"></i>Listeye Dön
+                        </a>
+                        <button type="submit" class="btn btn-primary btn-rounded ripple-surface">
+                            <i class="fas fa-save me-2"></i>Kaydet
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    <script>
+            import { Input, initMDB } from "mdb-ui-kit";
+
+            initMDB({ Input });
+    </script>
+}

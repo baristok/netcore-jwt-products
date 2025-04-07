@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UdemyJwtApp.Back",
+    "\\UdemyJwtApp.Back\\Persistance",
+    "\\UdemyJwtApp.Back\\Persistance\\Migrations",
+    "\\UdemyJwtApp.Back\\Persistance\\Repositories"
+  ],
+  "SelectedNode": "\\UdemyJwtApp.Back\\Persistance\\Migrations\\UdemyJwtContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}

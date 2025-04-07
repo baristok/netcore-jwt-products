@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtApp.Back", "JwtApp.Back\JwtApp.Back.csproj", "{CF9208D0-6372-469F-A291-E32748616F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtApp.Front", "JwtApp.Front\JwtApp.Front.csproj", "{184D3DF8-E09B-433C-A763-97FD239C1381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9208D0-6372-469F-A291-E32748616F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9208D0-6372-469F-A291-E32748616F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9208D0-6372-469F-A291-E32748616F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9208D0-6372-469F-A291-E32748616F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184D3DF8-E09B-433C-A763-97FD239C1381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184D3DF8-E09B-433C-A763-97FD239C1381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184D3DF8-E09B-433C-A763-97FD239C1381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184D3DF8-E09B-433C-A763-97FD239C1381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
