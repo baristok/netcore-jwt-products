@@ -4,9 +4,7 @@
 </head>
 <body>
     <h1>JWT Tabanlı Ürün Yönetim Sistemi</h1> 
-    <p>Bu proje, <code>ASP.NET Core 
-        8.0 Onion Architecture (Soğan Mimarisi) ve SOLID 
-        prensiplerine</code> uygun olarak geliştirilmiş 
+    <p>Bu proje, <code>ASP.NET Core 8.0 Onion Architecture (Soğan Mimarisi) ve SOLID prensiplerine</code> uygun olarak geliştirilmiş 
         bir web uygulamasıdır. 
         JWT (JSON Web Token) kimlik doğrulama sistemine sahip
          bir ürün ve kategori 
